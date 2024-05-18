@@ -1,0 +1,420 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* صفحة start */
+
+.bad {
+  background: linear-gradient(to right, #020541 22%, #ca00fe 80%);
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.vi-start{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.img-start{
+  width: 900px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.start {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: 652px;
+}
+#imm {
+  width: 670px;
+  height: 655px;
+  position: absolute;
+  right: 10px;
+}
+.text-sta {
+  width:470px;
+  height: 400px;
+  position: relative;
+
+  left: -80px;
+  top: 80px;
+  color: #f0eeee;
+}
+#h1st {
+  color: #fff;
+  font-size: 90px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  letter-spacing: 10px;
+}
+#h2st {
+  color: #7e89e9;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 5px;
+}
+#p1st {
+  color: rgb(187, 187, 184);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  word-spacing: 2px;
+}
+#sp1st {
+  color: rgb(255, 255, 255);
+}
+b {
+  color: #81c1ff;
+}
+#b1 {
+  color: #020541;
+  font-weight: 700;
+}
+#ast1 {
+  background: linear-gradient(to right, #f3ec79 20%, #faa2b1, #e91baf 85%);
+  display: inline-block;
+
+  width: 125px;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 15px;
+}
+#ast2 {
+  background: linear-gradient(to right, #f3ec79 20%, #faa2b1, #e91baf 85%);
+  display: inline-block;
+position: relative;
+left: 20px;
+  width: 125px;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 15px;
+}
+
+.icst {
+  display: flex;
+
+  width: 150px;
+  height: 60px;
+  justify-content: space-between;
+}
+#iconst1,
+#iconst2,
+#iconst3,
+#iconst4 {
+  font-size: 43px;
+  line-height: 20px;
+}
+#iconst1 {
+  position: relative;
+  left: 30px;
+  right: 20px;
+}
+#iconst1:hover {
+  color: #066bcf;
+  transform: scale(1.3);
+  transition: 0.3s ease;
+}
+#iconst2 {
+  position: relative;
+  left: 60px;
+  right: 20px;
+}
+#iconst2:hover {
+  color: #ca00fe;
+  transform: scale(1.3);
+  transition: 0.3s ease;
+}
+#iconst3 {
+  position: relative;
+  left: 106px;
+  right: 20px;
+}
+#iconst3:hover {
+  color: #65d2e0;
+  transform: scale(1.3);
+  transition: 0.3s ease;
+}
+#iconst4 {
+  position: relative;
+  left: 150px;
+  right: 20px;
+}
+#iconst4:hover {
+  color: #f3ec79;
+  transform: scale(1.3);
+  transition: 0.3s ease;
+}
+#aic {
+  color: white;
+  text-decoration: none;
+}
+#bst{
+  font-size: 13px;
+  font-weight: 400;
+  color: #dcd4f7;
+}
+.endst{
+  position: relative;
+  top: 35px;
+  width: 300px;
+  text-align: center;
+}
+#a-end{
+  text-decoration: none;
+  color: #e2dcf3;
+  font-size: 14px;
+}
+#a-end:hover{
+  color: black;
+ text-decoration-line: underline;
+}
+
+/* صفحة start */
+
+/* تسجيل الدخول */
+
+.bodylo {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imglo {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+.imlo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.login {
+  position: relative;
+  padding-top: 40px;
+  background: linear-gradient(to top, #02054100 20%, #f4f2f500 85%);
+  border: 2px solid #dcd4f7;
+  width: 420px;
+  margin: auto;
+  top: 120px;
+  height: 380px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
+#h2lo {
+  font-size: 30px;
+  color: #ffffff;
+}
+.loginform {
+  position: relative;
+  
+  padding: 30px 20px;
+  width: 320px;
+  
+  margin: auto;
+}
+
+
+.inputem {
+  width: 300px;
+  background: none;
+  color: black;
+  padding:16px 0px ;
+  border: #dcd4f7 2px solid;
+  border-radius: 30px;
+  padding-left: 19px;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.inputem::placeholder {
+  color: #ebeaf0;
+  font-weight: 600;
+  font-size: 17px;
+}
+.inputpas {
+  width: 300px;
+  background: none;
+  color: black;
+  padding:15px 0px ;
+  border: #dcd4f7 2px solid;
+  border-radius: 30px;
+  padding-left: 20px;
+   outline: none;
+   font-size: 15px;
+   font-weight: 600;
+}
+.inputpas::placeholder {
+  color: #dcd4f7;
+  font-weight: 600;
+  font-size: 15px;
+}
+.chec{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding-top: 15px;
+}
+.chec2{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 15px;
+ }
+.la,.ap{
+font-size: 13px;
+color: #dcd4f7;
+text-decoration: none;
+line-height: 20px;
+}
+.ap:hover{
+  color: black;
+ 
+  text-decoration-line: underline;
+}
+#ch:hover{
+  transform: scale(1.4);
+  transition: 0.6 ease;
+}
+.inputsu{
+  width: 320px;
+  background: #e2dcf3;
+  color: black;
+  padding:15px 0px ;
+ border: none;
+  border-radius: 30px;
+  position: relative;
+   outline: none;
+   font-size: 18px;
+   top:22px ;
+   font-weight: 500;
+}
+
+.login2 {
+  position: relative;
+  padding-top: 20px;
+  background: linear-gradient(to top, #02054100 20%, #f4f2f500 85%);
+  border: 2px solid #dcd4f7;
+  width: 420px;
+  margin: auto;
+  top: 50px;
+  height: 490px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+/* end تسجيل الدخول */
+
+/* صفحة الرئيسية  */
+
+/* navbar بداية */
+
+ .navbar{
+  width:100% ;
+  height: 75px;
+  border: #ebeaf0 5px solid;
+  backdrop-filter: blur(5px) ;
+  z-index: 10;
+  position: fixed;
+  display: flex;
+   
+  
+}
+
+ul{
+  width: 750px;
+  height: 60px;
+
+  position: absolute;
+  right: 180px;
+  display: flex;
+  line-height: 35px;
+  justify-content: space-evenly;
+  top: 20px;
+}
+#ah1{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+.hh2{
+  font-size: 35px;
+  color: #f3ec79;
+  position: absolute;
+  line-height: 70px;
+  left: 150px;
+}
+ 
+
+/* navbar end */
+
+ header {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  background:linear-gradient(to right, #311574 22%, #5f26c7 80%) ;
+  height: 200vh;
+color: #dcd4f7
+}
+.item1 {
+
+ top: 40px;
+  position: relative;
+ right:22px ;
+
+}
+.img-hom {
+  width:1050px ;
+  height:612px ;
+  position: absolute;
+  right: 0;
+ 
+}
+.item2 {
+  width: 40%;
+  height: 652px;
+ 
+
+
+ 
+  
+}
+#ph{
+  color: #f7eeee;
+  font-weight: 600;
+  line-height: 22px;
+}
+.itemstr {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: 160px;
+  left: 70px;
+ 
+}
+#h22{
+  font-size: 32px;
+}
+
+#h1 {
+  font-size: 55px;
+
+  color: #f7eeee;
+}
+
+
+
+
